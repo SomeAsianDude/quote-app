@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: lightblue;
+}
+
+header {
+  background-color: darkcyan;
+  height: 70px;
+}
+
+header h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.scoreboard {
+  font-size: 40px;
+  font-style: oblique;
+  text-align: center;
+  position: relative;
+  width: 300px;
+  margin: 50px auto;
+  border: 10px solid white;
+}
+
+#user-label {
+  position: absolute;
+  left: -15%;
+}
+
+#comp-label {
+  position: absolute;
+  right: -40%;
+}
+.badge {
+  background-color: orange;
+}
+
+.result {
+  font-size: 35px;
+  text-align: center;
+}
+
+.choices {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.rock {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 100%;
+}
+
+.rock img {
+  width: 70px;
+  height: 70px;
+}
+.paper {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 100%;
+}
+.paper img {
+  width: 70px;
+  height: 70px;
+}
+
+.ground {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.ground img {
+  width: 70px;
+  height: 70px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0px;
+}
+
+.sentence {
+  font-size: 30px;
+  text-align: center;
+}
+
+.Yeet {
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
